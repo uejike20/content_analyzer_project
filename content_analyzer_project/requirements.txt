@@ -1,0 +1,10 @@
+# content_analyzer_project/requirements.txt
+tensorflow==2.16.1 # Or just tensorflow-macos if the above install handles it
+transformers[sentencepiece]
+nltk
+yake
+jupyterlab
+tf-keras 
+ipykernel
+streamlit
+requests
