@@ -11,4 +11,5 @@ requests
 gunicorn
 pandas
 scikit-learn
-
+fastapi
+uvicorn[standard]
