@@ -6,7 +6,7 @@ import json      # To handle JSON data if needed for debugging (optional)
 # --- Configuration ---
 # This should be the address where your FastAPI backend is running.
 # If FastAPI is running locally (uvicorn main:app --port 8002):
-API_BASE_URL = "http://localhost:8002"
+API_BASE_URL = "https://smart-content-analyzer.onrender.com/analyze/"
 # If FastAPI is running in Docker and port 8002 is mapped to host's 8002:
 # API_BASE_URL = "http://localhost:8002" # Still localhost from Streamlit's perspective
 
