@@ -8,3 +8,7 @@ tf-keras
 ipykernel
 streamlit
 requests
+gunicorn
+pandas
+scikit-learn
+
