@@ -1,15 +1,8 @@
-# content_analyzer_project/requirements.txt
-tensorflow==2.16.1 # Or just tensorflow-macos if the above install handles it
-transformers[sentencepiece]
-nltk
-yake
-jupyterlab
-tf-keras 
-ipykernel
-streamlit
-requests
-gunicorn
-pandas
-scikit-learn
+pandas==2.2.2
+scikit-learn==1.5.0
+streamlit==1.36.0
+yake==0.4.8
 fastapi
 uvicorn[standard]
+torch --index-url https://download.pytorch.org/whl/cpu
+transformers
